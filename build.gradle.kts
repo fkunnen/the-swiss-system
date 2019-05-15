@@ -1,53 +1,20 @@
-import org.jetbrains.kotlin.com.google.common.collect.Lists
+import com.avast.gradle.dockercompose.tasks.ComposeBuild
+import com.avast.gradle.dockercompose.tasks.ComposeUp
 
 plugins {
-	kotlin("jvm") version "1.3.30"
-	id("org.jetbrains.kotlin.plugin.spring") version "1.3.30"
-	id("org.springframework.boot")  version "2.1.4.RELEASE"
+    id("com.avast.gradle.docker-compose") version "0.9.4"
 }
 
-apply(plugin = "io.spring.dependency-management")
-
-java {
-	sourceCompatibility = JavaVersion.VERSION_1_8
+dockerCompose.createNested("database").apply {
+    startedServices = listOf("mysql")
 }
-
-repositories {
-	mavenCentral()
-}
-
-dependencies {
-	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
-	implementation("org.springframework.boot:spring-boot-starter-web")
-	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
-	implementation(kotlin("reflect"))
-	implementation(kotlin("stdlib-jdk8"))
-
-	testImplementation("org.springframework.boot:spring-boot-starter-test")
-}
-
 
 tasks {
-	compileKotlin {
-		kotlinOptions {
-			freeCompilerArgs = Lists.newArrayList("-Xjsr305=strict")
-			jvmTarget = "1.8"
-		}
-	}
+    named<ComposeBuild>("composeBuild") {
+        dependsOn(":the-swiss-system-backend:build")
+    }
 
-	compileTestKotlin {
-		kotlinOptions {
-			freeCompilerArgs = Lists.newArrayList("-Xjsr305=strict")
-			jvmTarget = "1.8"
-		}
-	}
-
-	bootJar {
-		mainClassName = "be.fkunnen.theswisssystem.TheSwissSystemApplication"
-	}
-
-	clean {
-		delete("$rootDir/out")
-	}
-
+    named<ComposeUp>("composeUp") {
+        dependsOn("composeBuild")
+    }
 }

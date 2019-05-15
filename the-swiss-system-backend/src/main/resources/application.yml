@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/theswisssystem"
+    username: "theswisssystem"
+    password: "theswisssystem"
+    driverClassName: "com.mysql.jdbc.Driver"
