@@ -16,6 +16,8 @@ repositories {
     mavenCentral()
 }
 
+val junit5Version = "5.4.2"
+
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-web")
@@ -24,6 +26,9 @@ dependencies {
     implementation(kotlin("stdlib"))
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation("org.junit.jupiter:junit-jupiter:$junit5Version")
+
+    runtime("mysql:mysql-connector-java")
 }
 
 sourceSets.create("integrationTest") {
@@ -60,5 +65,5 @@ tasks {
         testClassesDirs = sourceSets["integrationTest"].output.classesDirs
         classpath = sourceSets["integrationTest"].runtimeClasspath
     }
-    
+
 }
