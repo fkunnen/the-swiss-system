@@ -1,6 +1,6 @@
 package be.fkunnen.theswisssystem
 
-class MatchGenerator constructor(private val players: MutableCollection<Player>) {
+class RandomMatchGenerator constructor(private val players: MutableCollection<Player>) {
 
     fun generate(): List<Match> {
         addTheJokerIfNecessary()

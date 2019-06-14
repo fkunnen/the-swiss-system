@@ -3,12 +3,12 @@ package be.fkunnen.theswisssystem
 import org.junit.Test
 import org.junit.Assert.*
 
-class MatchGeneratorTest {
+class RandomMatchGeneratorTest {
 
     @Test
     fun generateFromEvenNumberOfPlayers() {
         val players = mutableListOf(Player("Dan"), Player("Frank"), Player("Geanina"), Player("Kenny"))
-        val matchGenerator = MatchGenerator(players)
+        val matchGenerator = RandomMatchGenerator(players)
 
         val matches = matchGenerator.generate()
 
@@ -20,7 +20,7 @@ class MatchGeneratorTest {
     @Test
     fun generateFromOddNumberOfPlayers() {
         val players = mutableListOf(Player("Dan"), Player("Frank"), Player("Geanina"), Player("Kenny"), Player("Geert"))
-        val matchGenerator = MatchGenerator(players)
+        val matchGenerator = RandomMatchGenerator(players)
 
         val matches = matchGenerator.generate()
 

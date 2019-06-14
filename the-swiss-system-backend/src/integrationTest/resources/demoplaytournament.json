@@ -1,0 +1,1591 @@
+{
+  "scheduledRounds": [
+    {
+      "ranking": [
+        {
+          "name": "Rudi",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Dan",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Guido",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Geanina",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Frank",
+          "score": {
+            "numberOfWins": 4,
+            "numberOfLosses": 0
+          }
+        },
+        {
+          "name": "Tung",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Felix",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Kenny",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Matthias",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Wolfram",
+          "score": {
+            "numberOfWins": 0,
+            "numberOfLosses": 4
+          }
+        },
+        {
+          "name": "Sonja",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Kai",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Johnny",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Karel",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Jonathan",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Jef",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        }
+      ],
+      "matches": [
+        {
+          "playerOne": {
+            "name": "Rudi",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "playerTwo": {
+            "name": "Matthias",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Dan",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "playerTwo": {
+            "name": "Wolfram",
+            "score": {
+              "numberOfWins": 0,
+              "numberOfLosses": 4
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Guido",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "playerTwo": {
+            "name": "Sonja",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Geanina",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "playerTwo": {
+            "name": "Kai",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Frank",
+            "score": {
+              "numberOfWins": 4,
+              "numberOfLosses": 0
+            }
+          },
+          "playerTwo": {
+            "name": "Johnny",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Tung",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "playerTwo": {
+            "name": "Karel",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Felix",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "playerTwo": {
+            "name": "Jonathan",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Kenny",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "playerTwo": {
+            "name": "Jef",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ranking": [
+        {
+          "name": "Frank",
+          "score": {
+            "numberOfWins": 4,
+            "numberOfLosses": 0
+          }
+        },
+        {
+          "name": "Dan",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Kenny",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Geanina",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Felix",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Guido",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Rudi",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Tung",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Jef",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Matthias",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Kai",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Sonja",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Karel",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Jonathan",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Johnny",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Wolfram",
+          "score": {
+            "numberOfWins": 0,
+            "numberOfLosses": 4
+          }
+        }
+      ],
+      "matches": [
+        {
+          "playerOne": {
+            "name": "Frank",
+            "score": {
+              "numberOfWins": 4,
+              "numberOfLosses": 0
+            }
+          },
+          "playerTwo": {
+            "name": "Felix",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Dan",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "playerTwo": {
+            "name": "Guido",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Kenny",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "playerTwo": {
+            "name": "Rudi",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Geanina",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "playerTwo": {
+            "name": "Tung",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Jef",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "playerTwo": {
+            "name": "Karel",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Matthias",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "playerTwo": {
+            "name": "Jonathan",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Kai",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "playerTwo": {
+            "name": "Johnny",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Sonja",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "playerTwo": {
+            "name": "Wolfram",
+            "score": {
+              "numberOfWins": 0,
+              "numberOfLosses": 4
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ranking": [
+        {
+          "name": "Frank",
+          "score": {
+            "numberOfWins": 4,
+            "numberOfLosses": 0
+          }
+        },
+        {
+          "name": "Dan",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Kenny",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Geanina",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Jef",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Matthias",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Kai",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Sonja",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Felix",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Guido",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Rudi",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Tung",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Karel",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Jonathan",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Johnny",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Wolfram",
+          "score": {
+            "numberOfWins": 0,
+            "numberOfLosses": 4
+          }
+        }
+      ],
+      "matches": [
+        {
+          "playerOne": {
+            "name": "Frank",
+            "score": {
+              "numberOfWins": 4,
+              "numberOfLosses": 0
+            }
+          },
+          "playerTwo": {
+            "name": "Kenny",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Dan",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "playerTwo": {
+            "name": "Geanina",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Jef",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "playerTwo": {
+            "name": "Felix",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Matthias",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "playerTwo": {
+            "name": "Guido",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Kai",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "playerTwo": {
+            "name": "Rudi",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Sonja",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "playerTwo": {
+            "name": "Tung",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Karel",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "playerTwo": {
+            "name": "Johnny",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Jonathan",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "playerTwo": {
+            "name": "Wolfram",
+            "score": {
+              "numberOfWins": 0,
+              "numberOfLosses": 4
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ranking": [
+        {
+          "name": "Frank",
+          "score": {
+            "numberOfWins": 4,
+            "numberOfLosses": 0
+          }
+        },
+        {
+          "name": "Dan",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Kenny",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Geanina",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Jef",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        {
+          "name": "Matthias",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Kai",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Sonja",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Felix",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Karel",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Guido",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        {
+          "name": "Jonathan",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Rudi",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Tung",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Johnny",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        {
+          "name": "Wolfram",
+          "score": {
+            "numberOfWins": 0,
+            "numberOfLosses": 4
+          }
+        }
+      ],
+      "matches": [
+        {
+          "playerOne": {
+            "name": "Frank",
+            "score": {
+              "numberOfWins": 4,
+              "numberOfLosses": 0
+            }
+          },
+          "playerTwo": {
+            "name": "Dan",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Kenny",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "playerTwo": {
+            "name": "Matthias",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Geanina",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "playerTwo": {
+            "name": "Kai",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Jef",
+            "score": {
+              "numberOfWins": 3,
+              "numberOfLosses": 1
+            }
+          },
+          "playerTwo": {
+            "name": "Sonja",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Felix",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "playerTwo": {
+            "name": "Jonathan",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Karel",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "playerTwo": {
+            "name": "Rudi",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Guido",
+            "score": {
+              "numberOfWins": 2,
+              "numberOfLosses": 2
+            }
+          },
+          "playerTwo": {
+            "name": "Tung",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        },
+        {
+          "playerOne": {
+            "name": "Johnny",
+            "score": {
+              "numberOfWins": 1,
+              "numberOfLosses": 3
+            }
+          },
+          "playerTwo": {
+            "name": "Wolfram",
+            "score": {
+              "numberOfWins": 0,
+              "numberOfLosses": 4
+            }
+          },
+          "result": {
+            "games": [
+              "21-16",
+              "21-12"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "currentRound": {
+    "ranking": [
+      {
+        "name": "Frank",
+        "score": {
+          "numberOfWins": 4,
+          "numberOfLosses": 0
+        }
+      },
+      {
+        "name": "Dan",
+        "score": {
+          "numberOfWins": 3,
+          "numberOfLosses": 1
+        }
+      },
+      {
+        "name": "Kenny",
+        "score": {
+          "numberOfWins": 3,
+          "numberOfLosses": 1
+        }
+      },
+      {
+        "name": "Geanina",
+        "score": {
+          "numberOfWins": 3,
+          "numberOfLosses": 1
+        }
+      },
+      {
+        "name": "Jef",
+        "score": {
+          "numberOfWins": 3,
+          "numberOfLosses": 1
+        }
+      },
+      {
+        "name": "Matthias",
+        "score": {
+          "numberOfWins": 2,
+          "numberOfLosses": 2
+        }
+      },
+      {
+        "name": "Kai",
+        "score": {
+          "numberOfWins": 2,
+          "numberOfLosses": 2
+        }
+      },
+      {
+        "name": "Sonja",
+        "score": {
+          "numberOfWins": 2,
+          "numberOfLosses": 2
+        }
+      },
+      {
+        "name": "Felix",
+        "score": {
+          "numberOfWins": 2,
+          "numberOfLosses": 2
+        }
+      },
+      {
+        "name": "Karel",
+        "score": {
+          "numberOfWins": 2,
+          "numberOfLosses": 2
+        }
+      },
+      {
+        "name": "Guido",
+        "score": {
+          "numberOfWins": 2,
+          "numberOfLosses": 2
+        }
+      },
+      {
+        "name": "Jonathan",
+        "score": {
+          "numberOfWins": 1,
+          "numberOfLosses": 3
+        }
+      },
+      {
+        "name": "Rudi",
+        "score": {
+          "numberOfWins": 1,
+          "numberOfLosses": 3
+        }
+      },
+      {
+        "name": "Tung",
+        "score": {
+          "numberOfWins": 1,
+          "numberOfLosses": 3
+        }
+      },
+      {
+        "name": "Johnny",
+        "score": {
+          "numberOfWins": 1,
+          "numberOfLosses": 3
+        }
+      },
+      {
+        "name": "Wolfram",
+        "score": {
+          "numberOfWins": 0,
+          "numberOfLosses": 4
+        }
+      }
+    ],
+    "matches": [
+      {
+        "playerOne": {
+          "name": "Frank",
+          "score": {
+            "numberOfWins": 4,
+            "numberOfLosses": 0
+          }
+        },
+        "playerTwo": {
+          "name": "Dan",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        "result": {
+          "games": [
+            "21-16",
+            "21-12"
+          ]
+        }
+      },
+      {
+        "playerOne": {
+          "name": "Kenny",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        "playerTwo": {
+          "name": "Matthias",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        "result": {
+          "games": [
+            "21-16",
+            "21-12"
+          ]
+        }
+      },
+      {
+        "playerOne": {
+          "name": "Geanina",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        "playerTwo": {
+          "name": "Kai",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        "result": {
+          "games": [
+            "21-16",
+            "21-12"
+          ]
+        }
+      },
+      {
+        "playerOne": {
+          "name": "Jef",
+          "score": {
+            "numberOfWins": 3,
+            "numberOfLosses": 1
+          }
+        },
+        "playerTwo": {
+          "name": "Sonja",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        "result": {
+          "games": [
+            "21-16",
+            "21-12"
+          ]
+        }
+      },
+      {
+        "playerOne": {
+          "name": "Felix",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        "playerTwo": {
+          "name": "Jonathan",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        "result": {
+          "games": [
+            "21-16",
+            "21-12"
+          ]
+        }
+      },
+      {
+        "playerOne": {
+          "name": "Karel",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        "playerTwo": {
+          "name": "Rudi",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        "result": {
+          "games": [
+            "21-16",
+            "21-12"
+          ]
+        }
+      },
+      {
+        "playerOne": {
+          "name": "Guido",
+          "score": {
+            "numberOfWins": 2,
+            "numberOfLosses": 2
+          }
+        },
+        "playerTwo": {
+          "name": "Tung",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        "result": {
+          "games": [
+            "21-16",
+            "21-12"
+          ]
+        }
+      },
+      {
+        "playerOne": {
+          "name": "Johnny",
+          "score": {
+            "numberOfWins": 1,
+            "numberOfLosses": 3
+          }
+        },
+        "playerTwo": {
+          "name": "Wolfram",
+          "score": {
+            "numberOfWins": 0,
+            "numberOfLosses": 4
+          }
+        },
+        "result": {
+          "games": [
+            "21-16",
+            "21-12"
+          ]
+        }
+      }
+    ]
+  },
+  "tournamentStarted": true,
+  "tournamentFinished": true,
+  "numberOfRounds": 4,
+  "players": [
+    {
+      "name": "Frank",
+      "score": {
+        "numberOfWins": 4,
+        "numberOfLosses": 0
+      }
+    },
+    {
+      "name": "Dan",
+      "score": {
+        "numberOfWins": 3,
+        "numberOfLosses": 1
+      }
+    },
+    {
+      "name": "Kenny",
+      "score": {
+        "numberOfWins": 3,
+        "numberOfLosses": 1
+      }
+    },
+    {
+      "name": "Geanina",
+      "score": {
+        "numberOfWins": 3,
+        "numberOfLosses": 1
+      }
+    },
+    {
+      "name": "Jef",
+      "score": {
+        "numberOfWins": 3,
+        "numberOfLosses": 1
+      }
+    },
+    {
+      "name": "Matthias",
+      "score": {
+        "numberOfWins": 2,
+        "numberOfLosses": 2
+      }
+    },
+    {
+      "name": "Kai",
+      "score": {
+        "numberOfWins": 2,
+        "numberOfLosses": 2
+      }
+    },
+    {
+      "name": "Sonja",
+      "score": {
+        "numberOfWins": 2,
+        "numberOfLosses": 2
+      }
+    },
+    {
+      "name": "Felix",
+      "score": {
+        "numberOfWins": 2,
+        "numberOfLosses": 2
+      }
+    },
+    {
+      "name": "Karel",
+      "score": {
+        "numberOfWins": 2,
+        "numberOfLosses": 2
+      }
+    },
+    {
+      "name": "Guido",
+      "score": {
+        "numberOfWins": 2,
+        "numberOfLosses": 2
+      }
+    },
+    {
+      "name": "Jonathan",
+      "score": {
+        "numberOfWins": 1,
+        "numberOfLosses": 3
+      }
+    },
+    {
+      "name": "Rudi",
+      "score": {
+        "numberOfWins": 1,
+        "numberOfLosses": 3
+      }
+    },
+    {
+      "name": "Johnny",
+      "score": {
+        "numberOfWins": 1,
+        "numberOfLosses": 3
+      }
+    },
+    {
+      "name": "Wolfram",
+      "score": {
+        "numberOfWins": 0,
+        "numberOfLosses": 4
+      }
+    },
+    {
+      "name": "Tung",
+      "score": {
+        "numberOfWins": 1,
+        "numberOfLosses": 3
+      }
+    }
+  ]
+}

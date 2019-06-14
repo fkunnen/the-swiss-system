@@ -25,5 +25,7 @@ class Player constructor(val name: String, var score: DummyScore = DummyScore())
         return name.hashCode()
     }
 
-
+    override fun toString(): String {
+        return "Player(name='$name', score=$score)"
+    }
 }
