@@ -17,6 +17,7 @@ repositories {
 }
 
 val junit5Version = "5.4.2"
+val mockkVersion = "1.8.13"
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
@@ -27,6 +28,8 @@ dependencies {
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.junit.jupiter:junit-jupiter:$junit5Version")
+    testImplementation("io.mockk:mockk:$mockkVersion")
+    testImplementation(kotlin("test"))
 
     runtime("mysql:mysql-connector-java")
 }
