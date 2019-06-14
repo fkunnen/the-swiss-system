@@ -1,16 +1,24 @@
 package be.fkunnen.theswisssystem
 
 import com.google.gson.Gson
-import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder.json
 
-class Tournament constructor(val numberOfRounds: Int, var players: MutableList<Player> = mutableListOf()) {
+class Tournament {
 
+    private var numberOfRounds: Int = 0
+    private var players = mutableListOf<Player>()
     private val scheduledRounds = mutableListOf<Round>()
-    val randomMatchGenerator = RandomMatchGenerator(players)
-    val swissSystemMatchGenerator = SwissSystemMatchGenerator(players)
+    var randomMatchGenerator: RandomMatchGenerator
+    var  swissSystemMatchGenerator: SwissSystemMatchGenerator
     private lateinit var currentRound: Round
     private var tournamentStarted = false
     private var tournamentFinished = false
+
+    constructor(numberOfRounds: Int, players: List<Player>) {
+        this.numberOfRounds = numberOfRounds
+        this.players.addAll(players)
+        this.randomMatchGenerator = RandomMatchGenerator(this.players)
+        this.swissSystemMatchGenerator = SwissSystemMatchGenerator(this.players);
+    }
 
     fun addPlayer(player: Player) {
         !tournamentStarted && players.add(player)
@@ -82,5 +90,29 @@ class Tournament constructor(val numberOfRounds: Int, var players: MutableList<P
 
     private fun randomMatchResult(): MatchResult {
         return MatchResult(listOf("21-16", "21-12"))
+    }
+
+    fun getNumberOfRounds(): Int {
+        return numberOfRounds
+    }
+
+    fun getPlayers(): List<Player> {
+        return players.toList()
+    }
+
+    fun getScheduledRounds(): List<Round> {
+        return scheduledRounds.toList()
+    }
+
+    fun getCurrentRound(): Round {
+        return currentRound
+    }
+
+    fun isTournamentStarted() : Boolean {
+        return tournamentStarted
+    }
+
+    fun isTournamentFinished() : Boolean {
+        return tournamentFinished
     }
 }

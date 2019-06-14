@@ -20,8 +20,8 @@ val junit5Version = "5.4.2"
 val mockkVersion = "1.8.13"
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-    implementation("org.springframework.boot:spring-boot-starter-web")
+    //implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("com.google.code.gson:gson:2.8.5")
     implementation(kotlin("reflect"))

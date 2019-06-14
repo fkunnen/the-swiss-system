@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:jdk-11.0.3_7-alpine-slim
+FROM frolvlad/alpine-oraclejdk8:slim
 
 MAINTAINER frank.kunnen@cegeka.com
 
