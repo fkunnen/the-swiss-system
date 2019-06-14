@@ -25,24 +25,24 @@ class TournamentTest {
     @Test
     fun addPlayer() {
         val tournament: Tournament = Tournament(numberOfRounds = 2);
-        var tournamentPlayers = tournament.players;
+        var tournamentPlayers = tournament.getPlayers();
         assertEquals(tournamentPlayers.size, 0);
 
         tournament.addPlayer(Player(name = "Frank"));
 
-        tournamentPlayers = tournament.players;
+        tournamentPlayers = tournament.getPlayers();
         assertEquals(tournamentPlayers.size, 1);
     }
 
     @Test
     fun addPlayers() {
         val tournament: Tournament = Tournament(numberOfRounds = 2);
-        var tournamentPlayers = tournament.players;
+        var tournamentPlayers = tournament.getPlayers();
         assertEquals(tournamentPlayers.size, 0);
 
         tournament.addPlayers(listOf(Player(name = "Frank"), Player("Dan")));
 
-        tournamentPlayers = tournament.players;
+        tournamentPlayers = tournament.getPlayers();
         assertEquals(tournamentPlayers.size, 2);
     }
 
@@ -77,9 +77,7 @@ class TournamentTest {
 
         val ranking = tournament.getRanking()
         assertEquals(2, ranking.size)
-        assertEquals(Player("Frank"), ranking[0])
-        assertEquals(Player("Dan"), ranking[1])
-        assertEquals(tournament.getRounds().size, tournament.numberOfRounds)
+        assertEquals(tournament.getRounds().size, tournament.getNumberOfRounds())
     }
 
     @Test

@@ -13,6 +13,12 @@ class Tournament {
     private var tournamentStarted = false
     private var tournamentFinished = false
 
+    constructor(numberOfRounds: Int){
+        this.numberOfRounds = numberOfRounds
+        this.randomMatchGenerator = RandomMatchGenerator(this.players)
+        this.swissSystemMatchGenerator = SwissSystemMatchGenerator(this.players);
+    }
+
     constructor(numberOfRounds: Int, players: List<Player>) {
         this.numberOfRounds = numberOfRounds
         this.players.addAll(players)

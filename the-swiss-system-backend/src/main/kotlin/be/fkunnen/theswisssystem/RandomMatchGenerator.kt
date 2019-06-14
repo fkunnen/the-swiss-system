@@ -5,7 +5,7 @@ class RandomMatchGenerator constructor(private val players: MutableCollection<Pl
     fun generate(): List<Match> {
         addTheJokerIfNecessary()
 
-        val shuffled = players.shuffled()
+        var shuffled = players.shuffled()
         val matches = mutableListOf<Match>();
         for (i in 0 until shuffled.size step 2) {
             matches.add(Match(shuffled[i], shuffled[i+1]))
